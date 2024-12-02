@@ -14,3 +14,10 @@ For Tasmota configure D6 GPIO 12 as OpenTherm TX (203) and D5 GPIO 14 as OpenThe
 Version 1.2 of the PCB adds on the back a solder bridge jumper to select for IN (read/RX) pin GPIO 14 or GPIO 4 and for OUT (write/TX) GPIO 12 or GPIO 5 as requested by some ESPHome users.
 
 For ESPHome we have tested with great success the component by khenderick available here: https://github.com/khenderick/esphome-opentherm
+
+
+Update:
+we got information from a user that since ESPHome 2024.11.0 OpenTherm is integrated officialy and it works great.
+https://esphome.io/components/opentherm
+based on
+https://github.com/olegtarasov/esphome-opentherm
